@@ -6,10 +6,11 @@ class HomeScreenController extends GetxController {
   final dio = Dio();
   final isLoading = true.obs;
   final niyoDataList = <NiyoXData>[].obs;
+  final responseData = "".obs;
 
   @override
-  void onInit() {
-    super.onInit();
+  void onReady() {
+    super.onReady();
     fetchData();
   }
 
@@ -23,11 +24,15 @@ class HomeScreenController extends GetxController {
         print("Success");
       } else {
         isLoading.toggle();
+        responseData.value += response.statusCode.toString() +
+            " " +
+            response.statusMessage.toString();
         print("Response status code : " + response.statusCode.toString());
         print("Response status : " + response.statusMessage.toString());
       }
     } catch (e) {
       isLoading.toggle();
+      responseData.value += "api error " + e.toString();
       print("Api Error : $e");
     }
   }

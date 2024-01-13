@@ -57,13 +57,20 @@ class HomeScreen extends StatelessWidget {
         ).toSliverBox;
       }
       if (data.isEmpty) {
-        return Center(
-          child: Text(
-            "No data found",
-            style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                  fontSize: 51,
-                ),
-          ),
+        return Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text("response : "),
+            20.verticalSpace,
+            Text(controller.responseData.value),
+            20.verticalSpace,
+            Text(
+              "No data found",
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontSize: 25,
+                  ),
+            ),
+          ],
         ).toSliverBox;
       }
       return SliverList.builder(
