@@ -1,16 +1,26 @@
-# test
+#  NiyoX Assignment
 
-A new Flutter project.
+##  Problem statement
+```
+  For given public api :
+  https://jsonplaceholder.typicode.com/posts
+  Build a Flutter android app to show title info on a screen
 
-## Getting Started
+```
 
-This project is a starting point for a Flutter application.
+##  Tech stack
+```
 
-A few resources to get you started if this is your first Flutter project:
+  * Flutter
+  * Dart
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://github.com/ajayg51/niyoXAssignment/assets/60037249/9bd87289-6a0a-4301-b42b-23079a3f35d7
+
+## Features
+```
+  * Splash screen with Animation
+  * Custom scroll view to for lazy loading
+  * Sliver list to manage infinite scrolling efficiently
+```
