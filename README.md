@@ -15,8 +15,6 @@
   * Dart
 
 ```
-##  android apk file
-<a href="">Click here to download apk file </a>
 
 https://github.com/ajayg51/niyoXAssignment/assets/60037249/9bd87289-6a0a-4301-b42b-23079a3f35d7
 
