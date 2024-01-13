@@ -11,7 +11,8 @@
 ##  Tech stack
 ```
 
-  Flutter, Dart
+  * Flutter
+  * Dart
 
 ```
 
