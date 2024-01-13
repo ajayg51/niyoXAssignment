@@ -15,6 +15,10 @@
   * Dart
 
 ```
+##  Download android apk
+<a href="https://github.com/ajayg51/niyoXAssignment/raw/main/apk/app-release.apk">Click here to download android apk</a>
+
+##  App running - video
 
 https://github.com/ajayg51/niyoXAssignment/assets/60037249/9bd87289-6a0a-4301-b42b-23079a3f35d7
 
