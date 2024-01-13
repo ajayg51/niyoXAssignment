@@ -43,11 +43,10 @@ class _SplashScreenState extends State<SplashScreen>
           Assets.niyoLogo,
           errorBuilder: (_, __, ___) => const SizedBox.shrink(),
         ),
-        title: Text(
-          "NiyoX",
-          style: Theme.of(context).textTheme.titleLarge?.copyWith(
-                fontSize: 38,
-              ),
+        title: Image.asset(
+          Assets.niyoImg,
+          width: 200,
+          height: 100,
         ),
         flexibleSpace: const CommonBackgroundGradient(),
       ),

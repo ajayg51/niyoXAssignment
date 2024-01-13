@@ -9,10 +9,10 @@ class CommonBackgroundGradient extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: const BoxDecoration(
+      decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            Colors.black,
+            Colors.black.withOpacity(0.3),
             Colors.teal,
             Colors.orange,
           ],
